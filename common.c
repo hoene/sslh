@@ -538,7 +538,7 @@ void resolve_name(struct addrinfo **out, char* fullname)
 }
 
 /* Log to syslog or stderr if foreground */
-void log_message(int type, char* msg, ...)
+void log_message(int type, const char* msg, ...)
 {
     va_list ap;
 
